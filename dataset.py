@@ -57,7 +57,7 @@ class Data(object):
 
 
 	def read_from_ball_file(self):
-	    print "Reading data..."
+	    print("Reading data...")
 	    f = open(self.data_file)
 	    original_file = f.read()
 	    rowsplit_data = original_file.splitlines()

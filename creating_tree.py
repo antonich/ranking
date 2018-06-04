@@ -13,49 +13,49 @@ import random
 
 VALUE = 0
 
-# reading attributes data from file and assigning to data object
-def read_attr_data(dataset):
-    file = open(dataset.attr_file)
-    raw_file = file.read()
-    rowsplit_data = raw_file.splitlines()
+# # reading attributes data from file and assigning to data object
+# def read_attr_data(dataset):
+#     file = open(dataset.attr_file)
+#     raw_file = file.read()
+#     rowsplit_data = raw_file.splitlines()
 
-    # where attributes start in file
-    attr_row_start = 0
+#     # where attributes start in file
+#     attr_row_start = 0
 
-    # start with class values
-    for index, row in enumerate(rowsplit_data):
-        if(row == '| class values'):
-            index += 2
-            dataset.class_values = re.split(',|:', rowsplit_data[index])
-            break
+#     # start with class values
+#     for index, row in enumerate(rowsplit_data):
+#         if(row == '| class values'):
+#             index += 2
+#             dataset.class_values = re.split(',|:', rowsplit_data[index])
+#             break
 
-    # start with attributes index
-    for index, row in enumerate(rowsplit_data):
-        if(row == '| attributes'):
-            attr_row_start = index+2
+#     # start with attributes index
+#     for index, row in enumerate(rowsplit_data):
+#         if(row == '| attributes'):
+#             attr_row_start = index+2
 
-    # start with getting attributes
-    for attr in rowsplit_data[attr_row_start:attr_row_start+dataset.attr_number]:
-        row = [x.replace(' ', '').replace(".",'') if(' ' in x) else x.replace('.','') for x in re.split(':|,', attr)]
-        dataset.attr_names.append(row[0])
-        dataset.attr_values.append(row[1:])
+#     # start with getting attributes
+#     for attr in rowsplit_data[attr_row_start:attr_row_start+dataset.attr_number]:
+#         row = [x.replace(' ', '').replace(".",'') if(' ' in x) else x.replace('.','') for x in re.split(':|,', attr)]
+#         dataset.attr_names.append(row[0])
+#         dataset.attr_values.append(row[1:])
 
 
-# reading examples data from file and assigning to data object
-def read_examples_data(dataset):
-    file = open(dataset.data_file)
-    raw_file = file.read()
-    rowsplit_data = raw_file.splitlines()
+# # reading examples data from file and assigning to data object
+# def read_examples_data(dataset):
+#     file = open(dataset.data_file)
+#     raw_file = file.read()
+#     rowsplit_data = raw_file.splitlines()
     
-    for rows in rowsplit_data:
-        data_row = rows.split(',')
-        # getting data examples
-        dataset.examples.append(data_row)
+#     for rows in rowsplit_data:
+#         data_row = rows.split(',')
+#         # getting data examples
+#         dataset.examples.append(data_row)
 
 
 
 def read_from_ball_file(dataset):
-    print "Reading data..."
+    print("Reading data...")
     f = open(dataset.data_file)
     original_file = f.read()
     rowsplit_data = original_file.splitlines()
@@ -130,7 +130,7 @@ def compute_tree(dataset, parent_node, parent_attr_val):
 
     #attr_to_split is now the best attribute according to our gain metric
     if (attr_to_split is None):
-        print "Upps. Something went wrong and you should find the mistake, pedik."
+        print("Upps. Something went wrong and you should find the mistake, pedik.")
     elif (max_gain <= min_gain or node.height > 20):
         node.is_leaf = True
         node.classification = classify_leaf(dataset, classifier)
