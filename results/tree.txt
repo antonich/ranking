@@ -1,0 +1,408 @@
+Node: safety | height: 0
+	Node: persons | height: 1
+		LEAF NODE: unacc | PARENT VALUE: 2
+		Node: buying | height: 2
+			Node: maint | height: 3
+				LEAF NODE: acc | PARENT VALUE: high
+				LEAF NODE: acc | PARENT VALUE: med
+				LEAF NODE: unacc | PARENT VALUE: vhigh
+				LEAF NODE: acc | PARENT VALUE: low
+			Node: maint | height: 3
+				LEAF NODE: acc | PARENT VALUE: high
+				Node: lug_boot | height: 4
+					LEAF NODE: acc | PARENT VALUE: small
+					LEAF NODE: vgood | PARENT VALUE: big
+					Node: doors | height: 5
+						LEAF NODE: vgood | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: acc | PARENT VALUE: 2
+						LEAF NODE: vgood | PARENT VALUE: 4
+				LEAF NODE: acc | PARENT VALUE: vhigh
+				Node: lug_boot | height: 4
+					LEAF NODE: good | PARENT VALUE: small
+					Node: doors | height: 5
+						LEAF NODE: good | PARENT VALUE: 2
+						LEAF NODE: good | PARENT VALUE: 3
+						LEAF NODE: vgood | PARENT VALUE: 5more
+						LEAF NODE: vgood | PARENT VALUE: 4
+					LEAF NODE: vgood | PARENT VALUE: big
+			Node: maint | height: 3
+				LEAF NODE: unacc | PARENT VALUE: high
+				LEAF NODE: acc | PARENT VALUE: med
+				LEAF NODE: unacc | PARENT VALUE: vhigh
+				LEAF NODE: acc | PARENT VALUE: low
+			Node: maint | height: 3
+				Node: lug_boot | height: 4
+					LEAF NODE: acc | PARENT VALUE: small
+					Node: doors | height: 5
+						LEAF NODE: vgood | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: acc | PARENT VALUE: 2
+						LEAF NODE: vgood | PARENT VALUE: 4
+					LEAF NODE: vgood | PARENT VALUE: big
+				Node: lug_boot | height: 4
+					LEAF NODE: good | PARENT VALUE: small
+					Node: doors | height: 5
+						LEAF NODE: good | PARENT VALUE: 2
+						LEAF NODE: good | PARENT VALUE: 3
+						LEAF NODE: vgood | PARENT VALUE: 5more
+						LEAF NODE: vgood | PARENT VALUE: 4
+					LEAF NODE: vgood | PARENT VALUE: big
+				LEAF NODE: acc | PARENT VALUE: vhigh
+				Node: lug_boot | height: 4
+					LEAF NODE: good | PARENT VALUE: small
+					LEAF NODE: vgood | PARENT VALUE: big
+					Node: doors | height: 5
+						LEAF NODE: good | PARENT VALUE: 3
+						LEAF NODE: good | PARENT VALUE: 2
+						LEAF NODE: vgood | PARENT VALUE: 5more
+						LEAF NODE: vgood | PARENT VALUE: 4
+		Node: buying | height: 2
+			Node: maint | height: 3
+				Node: doors | height: 4
+					LEAF NODE: acc | PARENT VALUE: 5more
+					LEAF NODE: acc | PARENT VALUE: 3
+					Node: lug_boot | height: 5
+						LEAF NODE: unacc | PARENT VALUE: small
+						LEAF NODE: acc | PARENT VALUE: big
+						LEAF NODE: acc | PARENT VALUE: med
+					LEAF NODE: acc | PARENT VALUE: 4
+				Node: doors | height: 4
+					Node: lug_boot | height: 5
+						LEAF NODE: unacc | PARENT VALUE: small
+						LEAF NODE: acc | PARENT VALUE: big
+						LEAF NODE: acc | PARENT VALUE: med
+					LEAF NODE: acc | PARENT VALUE: 3
+					LEAF NODE: acc | PARENT VALUE: 5more
+					LEAF NODE: acc | PARENT VALUE: 4
+				LEAF NODE: unacc | PARENT VALUE: vhigh
+				Node: doors | height: 4
+					Node: lug_boot | height: 5
+						LEAF NODE: unacc | PARENT VALUE: small
+						LEAF NODE: acc | PARENT VALUE: med
+						LEAF NODE: acc | PARENT VALUE: big
+					LEAF NODE: acc | PARENT VALUE: 3
+					LEAF NODE: acc | PARENT VALUE: 5more
+					LEAF NODE: acc | PARENT VALUE: 4
+			Node: maint | height: 3
+				Node: doors | height: 4
+					Node: lug_boot | height: 5
+						LEAF NODE: unacc | PARENT VALUE: small
+						LEAF NODE: acc | PARENT VALUE: med
+						LEAF NODE: acc | PARENT VALUE: big
+					LEAF NODE: acc | PARENT VALUE: 3
+					LEAF NODE: acc | PARENT VALUE: 5more
+					LEAF NODE: acc | PARENT VALUE: 4
+				Node: lug_boot | height: 4
+					Node: doors | height: 5
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 4
+					Node: doors | height: 5
+						LEAF NODE: acc | PARENT VALUE: 2
+						LEAF NODE: vgood | PARENT VALUE: 3
+						LEAF NODE: vgood | PARENT VALUE: 5more
+						LEAF NODE: vgood | PARENT VALUE: 4
+					LEAF NODE: vgood | PARENT VALUE: big
+				Node: doors | height: 4
+					LEAF NODE: acc | PARENT VALUE: 5more
+					LEAF NODE: acc | PARENT VALUE: 3
+					Node: lug_boot | height: 5
+						LEAF NODE: unacc | PARENT VALUE: small
+						LEAF NODE: acc | PARENT VALUE: med
+						LEAF NODE: acc | PARENT VALUE: big
+					LEAF NODE: acc | PARENT VALUE: 4
+				Node: lug_boot | height: 4
+					Node: doors | height: 5
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: good | PARENT VALUE: 3
+						LEAF NODE: good | PARENT VALUE: 5more
+						LEAF NODE: good | PARENT VALUE: 4
+					Node: doors | height: 5
+						LEAF NODE: good | PARENT VALUE: 2
+						LEAF NODE: vgood | PARENT VALUE: 3
+						LEAF NODE: vgood | PARENT VALUE: 5more
+						LEAF NODE: vgood | PARENT VALUE: 4
+					LEAF NODE: vgood | PARENT VALUE: big
+			Node: maint | height: 3
+				LEAF NODE: unacc | PARENT VALUE: high
+				Node: doors | height: 4
+					Node: lug_boot | height: 5
+						LEAF NODE: unacc | PARENT VALUE: small
+						LEAF NODE: acc | PARENT VALUE: big
+						LEAF NODE: acc | PARENT VALUE: med
+					LEAF NODE: acc | PARENT VALUE: 3
+					LEAF NODE: acc | PARENT VALUE: 5more
+					LEAF NODE: acc | PARENT VALUE: 4
+				LEAF NODE: unacc | PARENT VALUE: vhigh
+				Node: doors | height: 4
+					LEAF NODE: acc | PARENT VALUE: 3
+					Node: lug_boot | height: 5
+						LEAF NODE: unacc | PARENT VALUE: small
+						LEAF NODE: acc | PARENT VALUE: big
+						LEAF NODE: acc | PARENT VALUE: med
+					LEAF NODE: acc | PARENT VALUE: 5more
+					LEAF NODE: acc | PARENT VALUE: 4
+			Node: maint | height: 3
+				Node: lug_boot | height: 4
+					Node: doors | height: 5
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 4
+					Node: doors | height: 5
+						LEAF NODE: vgood | PARENT VALUE: 3
+						LEAF NODE: acc | PARENT VALUE: 2
+						LEAF NODE: vgood | PARENT VALUE: 5more
+						LEAF NODE: vgood | PARENT VALUE: 4
+					LEAF NODE: vgood | PARENT VALUE: big
+				Node: lug_boot | height: 4
+					Node: doors | height: 5
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: good | PARENT VALUE: 3
+						LEAF NODE: good | PARENT VALUE: 5more
+						LEAF NODE: good | PARENT VALUE: 4
+					LEAF NODE: vgood | PARENT VALUE: big
+					Node: doors | height: 5
+						LEAF NODE: vgood | PARENT VALUE: 5more
+						LEAF NODE: vgood | PARENT VALUE: 3
+						LEAF NODE: good | PARENT VALUE: 2
+						LEAF NODE: vgood | PARENT VALUE: 4
+				Node: doors | height: 4
+					LEAF NODE: acc | PARENT VALUE: 5more
+					LEAF NODE: acc | PARENT VALUE: 3
+					Node: lug_boot | height: 5
+						LEAF NODE: unacc | PARENT VALUE: small
+						LEAF NODE: acc | PARENT VALUE: med
+						LEAF NODE: acc | PARENT VALUE: big
+					LEAF NODE: acc | PARENT VALUE: 4
+				Node: lug_boot | height: 4
+					Node: doors | height: 5
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: good | PARENT VALUE: 3
+						LEAF NODE: good | PARENT VALUE: 5more
+						LEAF NODE: good | PARENT VALUE: 4
+					LEAF NODE: vgood | PARENT VALUE: big
+					Node: doors | height: 5
+						LEAF NODE: good | PARENT VALUE: 2
+						LEAF NODE: vgood | PARENT VALUE: 3
+						LEAF NODE: vgood | PARENT VALUE: 5more
+						LEAF NODE: vgood | PARENT VALUE: 4
+	Node: persons | height: 1
+		LEAF NODE: unacc | PARENT VALUE: 2
+		Node: buying | height: 2
+			Node: lug_boot | height: 3
+				LEAF NODE: unacc | PARENT VALUE: small
+				Node: doors | height: 4
+					LEAF NODE: unacc | PARENT VALUE: 3
+					LEAF NODE: unacc | PARENT VALUE: 2
+					Node: maint | height: 5
+						LEAF NODE: acc | PARENT VALUE: high
+						LEAF NODE: acc | PARENT VALUE: med
+						LEAF NODE: unacc | PARENT VALUE: vhigh
+						LEAF NODE: acc | PARENT VALUE: low
+					Node: maint | height: 5
+						LEAF NODE: acc | PARENT VALUE: high
+						LEAF NODE: acc | PARENT VALUE: med
+						LEAF NODE: unacc | PARENT VALUE: vhigh
+						LEAF NODE: acc | PARENT VALUE: low
+				Node: maint | height: 4
+					LEAF NODE: acc | PARENT VALUE: high
+					LEAF NODE: acc | PARENT VALUE: med
+					LEAF NODE: unacc | PARENT VALUE: vhigh
+					LEAF NODE: acc | PARENT VALUE: low
+			Node: maint | height: 3
+				Node: lug_boot | height: 4
+					LEAF NODE: unacc | PARENT VALUE: small
+					LEAF NODE: acc | PARENT VALUE: big
+					Node: doors | height: 5
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: unacc | PARENT VALUE: 3
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 4
+				LEAF NODE: acc | PARENT VALUE: med
+				Node: lug_boot | height: 4
+					LEAF NODE: unacc | PARENT VALUE: small
+					Node: doors | height: 5
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: unacc | PARENT VALUE: 3
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 4
+					LEAF NODE: acc | PARENT VALUE: big
+				Node: lug_boot | height: 4
+					LEAF NODE: acc | PARENT VALUE: small
+					Node: doors | height: 5
+						LEAF NODE: good | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: acc | PARENT VALUE: 2
+						LEAF NODE: good | PARENT VALUE: 4
+					LEAF NODE: good | PARENT VALUE: big
+			Node: maint | height: 3
+				LEAF NODE: unacc | PARENT VALUE: high
+				Node: lug_boot | height: 4
+					LEAF NODE: unacc | PARENT VALUE: small
+					LEAF NODE: acc | PARENT VALUE: big
+					Node: doors | height: 5
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: unacc | PARENT VALUE: 3
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 4
+				LEAF NODE: unacc | PARENT VALUE: vhigh
+				Node: lug_boot | height: 4
+					LEAF NODE: unacc | PARENT VALUE: small
+					LEAF NODE: acc | PARENT VALUE: big
+					Node: doors | height: 5
+						LEAF NODE: unacc | PARENT VALUE: 3
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 4
+			Node: maint | height: 3
+				LEAF NODE: acc | PARENT VALUE: high
+				Node: lug_boot | height: 4
+					LEAF NODE: acc | PARENT VALUE: small
+					Node: doors | height: 5
+						LEAF NODE: good | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: acc | PARENT VALUE: 2
+						LEAF NODE: good | PARENT VALUE: 4
+					LEAF NODE: good | PARENT VALUE: big
+				Node: lug_boot | height: 4
+					LEAF NODE: unacc | PARENT VALUE: small
+					LEAF NODE: acc | PARENT VALUE: big
+					Node: doors | height: 5
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: unacc | PARENT VALUE: 3
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 4
+				Node: lug_boot | height: 4
+					LEAF NODE: acc | PARENT VALUE: small
+					LEAF NODE: good | PARENT VALUE: big
+					Node: doors | height: 5
+						LEAF NODE: acc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: good | PARENT VALUE: 5more
+						LEAF NODE: good | PARENT VALUE: 4
+		Node: buying | height: 2
+			Node: lug_boot | height: 3
+				LEAF NODE: unacc | PARENT VALUE: small
+				Node: maint | height: 4
+					Node: doors | height: 5
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 4
+					Node: doors | height: 5
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 4
+					LEAF NODE: unacc | PARENT VALUE: vhigh
+					Node: doors | height: 5
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 4
+				Node: maint | height: 4
+					LEAF NODE: acc | PARENT VALUE: high
+					LEAF NODE: acc | PARENT VALUE: med
+					LEAF NODE: unacc | PARENT VALUE: vhigh
+					LEAF NODE: acc | PARENT VALUE: low
+			Node: maint | height: 3
+				Node: lug_boot | height: 4
+					LEAF NODE: unacc | PARENT VALUE: small
+					LEAF NODE: acc | PARENT VALUE: big
+					Node: doors | height: 5
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 4
+				Node: doors | height: 4
+					Node: lug_boot | height: 5
+						LEAF NODE: unacc | PARENT VALUE: small
+						LEAF NODE: acc | PARENT VALUE: big
+						LEAF NODE: acc | PARENT VALUE: med
+					LEAF NODE: acc | PARENT VALUE: 3
+					LEAF NODE: acc | PARENT VALUE: 5more
+					LEAF NODE: acc | PARENT VALUE: 4
+				Node: lug_boot | height: 4
+					LEAF NODE: unacc | PARENT VALUE: small
+					LEAF NODE: acc | PARENT VALUE: big
+					Node: doors | height: 5
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 4
+				Node: lug_boot | height: 4
+					Node: doors | height: 5
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 4
+					LEAF NODE: good | PARENT VALUE: big
+					Node: doors | height: 5
+						LEAF NODE: good | PARENT VALUE: 3
+						LEAF NODE: acc | PARENT VALUE: 2
+						LEAF NODE: good | PARENT VALUE: 5more
+						LEAF NODE: good | PARENT VALUE: 4
+			Node: maint | height: 3
+				LEAF NODE: unacc | PARENT VALUE: high
+				Node: lug_boot | height: 4
+					LEAF NODE: unacc | PARENT VALUE: small
+					Node: doors | height: 5
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 4
+					LEAF NODE: acc | PARENT VALUE: big
+				LEAF NODE: unacc | PARENT VALUE: vhigh
+				Node: lug_boot | height: 4
+					LEAF NODE: unacc | PARENT VALUE: small
+					LEAF NODE: acc | PARENT VALUE: big
+					Node: doors | height: 5
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 4
+			Node: maint | height: 3
+				Node: doors | height: 4
+					LEAF NODE: acc | PARENT VALUE: 5more
+					LEAF NODE: acc | PARENT VALUE: 3
+					Node: lug_boot | height: 5
+						LEAF NODE: unacc | PARENT VALUE: small
+						LEAF NODE: acc | PARENT VALUE: big
+						LEAF NODE: acc | PARENT VALUE: med
+					LEAF NODE: acc | PARENT VALUE: 4
+				Node: lug_boot | height: 4
+					Node: doors | height: 5
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 4
+					Node: doors | height: 5
+						LEAF NODE: good | PARENT VALUE: 5more
+						LEAF NODE: good | PARENT VALUE: 3
+						LEAF NODE: acc | PARENT VALUE: 2
+						LEAF NODE: good | PARENT VALUE: 4
+					LEAF NODE: good | PARENT VALUE: big
+				Node: lug_boot | height: 4
+					LEAF NODE: unacc | PARENT VALUE: small
+					LEAF NODE: acc | PARENT VALUE: big
+					Node: doors | height: 5
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 4
+				Node: lug_boot | height: 4
+					Node: doors | height: 5
+						LEAF NODE: acc | PARENT VALUE: 3
+						LEAF NODE: unacc | PARENT VALUE: 2
+						LEAF NODE: acc | PARENT VALUE: 5more
+						LEAF NODE: acc | PARENT VALUE: 4
+					LEAF NODE: good | PARENT VALUE: big
+					Node: doors | height: 5
+						LEAF NODE: acc | PARENT VALUE: 2
+						LEAF NODE: good | PARENT VALUE: 3
+						LEAF NODE: good | PARENT VALUE: 5more
+						LEAF NODE: good | PARENT VALUE: 4
+	LEAF NODE: unacc | PARENT VALUE: low

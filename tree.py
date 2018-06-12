@@ -1,6 +1,5 @@
 class Node(object):
-	def __init__(self, parent = None, val = None, children = []):
-		self.value = val
+	def __init__(self, parent = None, children = []):
 		self.children = []
 		self.parent = parent
 		self.height = 0
@@ -10,13 +9,5 @@ class Node(object):
 		self.attr_val = None
 		self.attr_name = None
 
-	@property
-	def value(self):
-		return self.__value
-
-	@value.setter
-	def value(self, val):
-		self.__value = val
-
 	def __str__(self):
-		return str(self.attr_split_index)
+		return str(self.attr_name)
